@@ -1,23 +1,23 @@
 # CIFAR-10-ResNet-Global-Optima
-Mini-project repository for the Global Optima group, featuring a modified ResNet model on CIFAR-10 with no more than 5 million parameters
 
-Deliverables
-results/
-This directory contains all key components of our project:
+Welcome to the Mini-project repository for the Global Optima group. This project focuses on optimizing and modifying the ResNet architecture to achieve the highest possible accuracy on the CIFAR-10 image classification dataset while maintaining a model size of no more than 5 million parameters.
 
-Report.pdf: The comprehensive project report that details methodologies, results, and conclusions.
-resnet_5M.ipynb: Jupyter notebook containing the code for our final ResNet model configured with 5 million parameters.
-predictions.csv: Our model's predictions on the Kaggle test set, which was used for competition submission.
-ckpt.pth: Checkpoint file containing the trained model weights.
-training_validation_plot.png: Visualization of training and validation progress over epochs.
-Experiments/
-Contains Jupyter notebooks for various experimental configurations tested during the project's development phase.
+## Project Deliverables
 
-Quick Start
-Clone this repository to begin reviewing the project's code and reports:
+### `results/`
+This directory contains all the key components of our project:
+- **`Report.pdf`**: Our comprehensive project report detailing the methodologies, experiment results, and conclusions.
+- **`resnet_5M.ipynb`**: The Jupyter notebook for our final ResNet model with 5 million parameters.
+- **`predictions.csv`**: The predictions file that was used for the Kaggle competition submission.
+- **`ckpt.pth`**: The checkpoint file containing the trained model weights.
+- **`training_validation_plot.png`**: Visual representation of training and validation accuracy and loss over the epochs.
 
-bash
-Copy code
+### `Experiments/`
+Contains Jupyter notebooks for various configurations and experimental setups tested during the development phase of the project.
+
+## Getting Started
+
+To get started with exploring and running the project:
+```bash
 git clone https://github.com/tanmayr71/CIFAR-10-ResNet-Global-Optima.git
-Viewing the Report
-The project report (Report.pdf) is located in the results/ directory and can be viewed using any standard PDF reader.
+cd CIFAR-10-ResNet-Global-Optima
